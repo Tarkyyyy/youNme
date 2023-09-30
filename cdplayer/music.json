@@ -1,0 +1,26 @@
+[
+    {
+        "title": "江南",
+        "author": "林俊杰",
+        "cover": "./cover/第二天堂.png",
+        "audio": "./music/江南.mp3"
+    },
+    {
+        "title": "第几个一百天",
+        "author": "林俊杰",
+        "cover": "./cover/100天.png",
+        "audio": "./music/第几个100天.mp3"
+    },
+    {
+        "title": "可惜没如果",
+        "author": "林俊杰",
+        "cover": "./cover/新地球.PNG",
+        "audio": "./music/可惜没如果.mp3"
+    },
+    {
+        "title": "修炼爱情",
+        "author": "林俊杰",
+        "cover": "./cover/因你而在.png",
+        "audio": "./music/修炼爱情.mp3"
+    }
+]
