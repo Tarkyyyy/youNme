@@ -1,5 +1,5 @@
 * {
-    font-family: 'Microsoft Yahei', 'Times New Roman', Times, serif;
+    font-family: 'Microsoft Yahei', 'Times New Roman', Times, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,21 +17,32 @@ body {
 
 }
 
+a {
+    color: rgb(235, 245, 255);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.685);
+}
+
 .title1 {
     margin: 10px;
     padding: 5px;
     width: 80%;
     display: flex;
     justify-content: center;
-    color: aliceblue;
+    color: white;
     font-size: 30px;
     letter-spacing: 15px;
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.685);
 }
 
-#title {
+/* #title {
     width: 700px;
-}
+} */
 
 .intro {
     margin: 10px;
@@ -41,18 +52,57 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(58, 58, 58, 0.781);
     box-shadow: 5px 5px 15px rgba(35, 49, 38, 0.541);
     border-radius: 5px;
 
 }
 
-.intro p {
+.notice {
     width: fit-content;
-    color: rgba(240, 248, 255, 0.685);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(182, 182, 182);
     font-size: 20px;
     font-weight: 550;
+    letter-spacing: 3px;
+}
+
+.detail {
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 248, 255);
+    font-size: 17px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+.detail span {
+    margin-left: 5px;
+    padding: 3px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.26);
+    box-shadow: 5px 5px 15px rgba(35, 49, 38, 0.541);
+    border-radius: 5px;
+    font-size: 23px;
+    font-weight: 550;
     letter-spacing: 4px;
+}
+
+span {
+    transition: all 0.2s ease-in-out;
+}
+
+span:hover {
+    background-color: rgba(100, 100, 100, 0.829);
 }
 
 .link1 {
@@ -61,7 +111,7 @@ body {
     width: 700px;
     display: flex;
 
-    background-color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(58, 58, 58, 0.781);
     box-shadow: 5px 5px 15px rgba(35, 49, 38, 0.541);
     border-radius: 5px;
 }
@@ -76,7 +126,7 @@ body {
     background-color: rgba(255, 255, 255, 0.26);
     box-shadow: 5px 5px 15px rgba(35, 49, 38, 0.541);
     border-radius: 5px;
-    color: antiquewhite;
+    color: whitesmoke;
     font-size: 23px;
     font-weight: 550;
     letter-spacing: 1px;
