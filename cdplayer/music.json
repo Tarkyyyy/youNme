@@ -22,5 +22,11 @@
         "author": "林俊杰",
         "cover": "./cover/因你而在.png",
         "audio": "./music/修炼爱情.mp3"
+    },
+    {
+        "title": "Castle In The Air",
+        "author": "林俊杰",
+        "cover": "./cover/重拾快乐.png",
+        "audio": "./music/Castle in the air - 林俊杰.mp3"
     }
 ]
