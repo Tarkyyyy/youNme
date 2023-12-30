@@ -85,7 +85,7 @@ body {
     transition: all 0.5s ease-in-out;
     /* animation:  ease-in-out 1s running test1; */
     transform: translate(0,-500px);
-    z-index: 1;
+    z-index: -1;
 }
 
 /* @keyframes test1 {
