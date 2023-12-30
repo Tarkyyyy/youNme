@@ -174,9 +174,8 @@ body {
 
 /* 播放器 */
 .dis-cdplay {
-    width: 23%;
-    height: 0;
-    padding-bottom: 30%;
+    width: 23vw;
+    height: 30vw;
     z-index: 1;
     filter: blur(1px);
     border-radius: 25px;
@@ -208,11 +207,9 @@ body {
 }
 
 .dis-cdplay-2 {
-    position: absolute;
-    bottom: 8%;
     width: 85%;
     height: 20%;
-    /* margin: 10% 0%; */
+    margin-bottom: 10%;
     border-radius: 15px;
     box-shadow: 5px 5px 13px rgba(35, 49, 38, 0.541);
     background-color: rgba(255, 255, 255, 0.075);
