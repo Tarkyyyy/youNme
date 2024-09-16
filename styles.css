@@ -20,10 +20,11 @@ body {
 
 .header {
     display: flex;
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
     z-index: 4;
-    background-color: #4b4b4b;
-    color: #e0e0e0
+    background-color: #eaeaea;
+    color: #454545
 }
 
 #title {
@@ -42,12 +43,12 @@ body {
     line-height: 38px;
 }
 .select:hover{
-    background-color: #9e9e9e;
+    background-color: #cdcdcdaf;
 }
 .head-link{
     padding: 5px;
     text-decoration: none;
-    color: #e0e0e0
+    color: #454545
 }
 .select:hover .head-link{
     color:#464646
@@ -63,11 +64,70 @@ body {
     align-items: center;
     text-align: center;
 }
+.disbox1{
+    margin-top: 40px;
+    padding: 5px 0 10px 0;
+    background-image: linear-gradient(to right, #bfc1d8, #c9bad6, #d5b3ce, #e2abbf, #e9a6ab, #eca7aa, #f0a9a8, #f3aaa7, #f7b0bb, #f8b7ce, #f5c0e0, #f0caf0);/*     background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%); */}
+.disbox1>span{
+    margin:0 0 0 20px;
+    color: #ffffff;
+    font-size: 30px;
+}
+#disbox11{
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    /* background: linear-gradient(336deg,#000000 33.9%,#797979 100%);  */
+} 
+.box{
+    flex: 1;
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 10px;
+    background-color: rgba(89, 89, 89, 0.1);
+    backdrop-filter: blur(22px);
+    box-shadow: rgba(14, 14, 14, 0.19) 0px 6px 15px 0px;
+    border-radius: 10px;
+    
+}
+.box>img{
+    width: 200%;
+    height: 92%;
+    object-fit: cover;
+    object-position: center;
+    transition: .5s;
+}
+.box>span{
+    font: 500 20px 'sans-serif';
+    text-align: center;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.box:hover{
+    flex-basis: 50%;
+}
+.box:hover>img{
+    width: 100%;
+    height: 90%;
+}
+.box:hover>span{
+    width: 100%;
+    height: 10%;
+}
 
 .display-title {
     font-size: 60px;
     font-weight: normal;
 }
+/* 
 #dis-title1fa {
     transition: all 0.5s ease-in-out;
     transform: translate(0,95px);
@@ -84,11 +144,11 @@ body {
 
 #fdis-title1fa {
     transition: all 0.5s ease-in-out;
-    /* animation:  ease-in-out 1s running test1; */
+    /* animation:  ease-in-out 1s running test1; 
     transform: translate(0,-500px);
     z-index: -1;
 }
-
+*/
 /* @keyframes test1 {
     from {
         transform: translate(0,-75px);
