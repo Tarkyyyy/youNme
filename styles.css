@@ -64,18 +64,74 @@ body {
     align-items: center;
     text-align: center;
 }
-.disbox1{
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
     margin-top: 40px;
-    padding: 5px 0 10px 0;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.profile>span{
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffffa9;
+    text-shadow: 2px 2px 10px #ffffff89;
+}
+.probox{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60%;
+    line-height: 2.2;
+    color: #ffffff;
+}
+#profile-1{
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgba(202, 202, 202, 0.149);
+    backdrop-filter: blur(22px);
+    border-radius: 10px;
+    border: 20px #4BEEBA;
+    line-height: 2.2;
+}
+#pro-text-1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+#profile-2>span{
+    font-size: 23px;
+    font-weight: bolder;
+}
+#profile-2{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 17px;
+    background-color: rgba(202, 202, 202, 0.105);
+    backdrop-filter: blur(22px);
+    border-radius: 10px;
+}
+.love{
+    height: 90%;
+    padding: 15px 0 30px 0;
     background-image: linear-gradient(to right, #bfc1d8, #c9bad6, #d5b3ce, #e2abbf, #e9a6ab, #eca7aa, #f0a9a8, #f3aaa7, #f7b0bb, #f8b7ce, #f5c0e0, #f0caf0);/*     background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%); */}
-.disbox1>span{
-    margin:0 0 0 20px;
+.love>span{
+    margin:0 0 20px 20px;
     color: #ffffff;
     font-size: 30px;
 }
 #disbox11{
     width: 100%;
     height: 87vh;
+    margin-top: 10px;
     display: flex;
     /* background: linear-gradient(336deg,#000000 33.9%,#797979 100%);  */
 } 
@@ -121,6 +177,7 @@ body {
 .box:hover>span{
     width: 100%;
     height: 10%;
+    font-size: 25px;
 }
 
 .display-title {
