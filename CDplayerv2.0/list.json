@@ -1,0 +1,63 @@
+[
+    {
+        "title": "jellyous",
+        "author": "ILLIT",
+        "album": "bomb-EP",
+        "cover": "./cover/bomb - EP.PNG",
+        "audio": "./music/jellyous-ILLIT.mp3",
+        "year": "2025",
+        "composer": "David Wilson, Colin Magalong",
+        "genres": "Kpop"
+        
+    },
+    {
+        "title": "Ditto",
+        "author": "Newjeans",
+        "album": "Ditto-single",
+        "cover": "./cover/Ditto - Single.PNG",
+        "audio": "./music/Ditto-NewJeans.mp3",
+        "year": "2022",
+        "composer": "Ylva Dimberg, 250",
+        "genres": "Kpop"
+    },
+    {
+        "title": "Heat Waves",
+        "author": "Glass Animals",
+        "album": "Dreamland",
+        "cover": "./cover/Dreamland.PNG",
+        "audio": "./music/Heat Waves-Glass Animals.mp3",
+        "year": "2020",
+        "composer": "Dave Bayley",
+        "genres": "Alternative"
+    },
+    {
+        "title": "风再起时",
+        "author": "张国荣",
+        "album": "Four Seasons",
+        "cover": "./cover/Four Seasons.PNG",
+        "audio": "./music/风再起时 - 张国荣.mp3",
+        "year": "1989",
+        "composer": "Leslie Cheung",
+        "genres": "Cantopop"
+    },
+    {
+        "title": "踊り子",
+        "author": "Vaundy",
+        "album": "odoriko-Single",
+        "cover": "./cover/odoriko - Single.PNG",
+        "audio": "./music/踊り子.mp3",
+        "year": "2021",
+        "composer": "Vaundy",
+        "genres": "Jpop"
+    },
+    {
+        "title": "黑色泡沫",
+        "author": "林俊杰",
+        "album": "重拾_快乐",
+        "cover": "./cover/重拾快乐.png",
+        "audio": "./music/黑色泡沫 - 林俊杰.mp3",
+        "year": "2023",
+        "composer": "JJ Lin",
+        "genres": "Cpop"
+    }
+]
