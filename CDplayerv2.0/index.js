@@ -38,10 +38,15 @@ var infobtn = document.querySelector('.bi-info-circle');
 function changPlay(){
     var playsvg = document.getElementById('playbtn');
     if (state == false){
-        playsvg.setAttribute("d", "M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z");
-
+        // playsvg.setAttribute("d", "M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z");
+        playbtn.src = "./icon/Pause.svg";
+        playbtn.width = "38";
+        playbtn.height = "38";
     }else{
-        playsvg.setAttribute("d", "m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z")
+        playbtn.src = "./icon/Play.svg";
+        playbtn.width = "36";
+        playbtn.height = "36";
+        // playsvg.setAttribute("d", "m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z")
     }
 
 }
@@ -261,9 +266,13 @@ function info(){
         info2.style.alignItems = "center";
         info2.style.flexDirection = "column";
 
+        console.log(icon)
         for(let i = 0; i < info3.length - 1; i++){
-            icon[i].style.color = "transparent";
+            icon[i].style.display = "none";
         }
+
+        slidercon.style.display = "none";
+        state2 = false;
 
         conBar.style.backgroundColor = "transparent";
 
@@ -310,7 +319,7 @@ function info(){
         
 
         for(let i = 0; i < info3.length - 1; i++){
-            icon[i].style.color = "#F6F6F6";
+            icon[i].style.display = "";
         }
 
         conBar.style.backgroundColor = "#5f5f5f30";
