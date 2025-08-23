@@ -144,6 +144,7 @@
 }
 
 .content2{
+    position: relative;
     letter-spacing: 0.03em;
     margin-left: 132px;
     width: 459px;
@@ -172,6 +173,7 @@
 }
 
 .contactInfo{
+
     margin-top: 87px;
     font-weight: 500;
     font-style: italic;
@@ -190,4 +192,14 @@
 .contactInfo1 span{
     color: #6974DB;
     font-weight: normal;
+}
+
+.version{
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: #3B3B3B;
 }
